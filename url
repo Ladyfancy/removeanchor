@@ -1,0 +1,16 @@
+function removeUrlAnchor(url){
+  
+// var res = url.slice(0, 16);
+console.log(url)
+
+
+for (i=0; i < url.length; i++){
+
+  if (url[i] == "#" ){
+    return url.slice(0, i);
+ }
+}
+
+return url
+  
+}
